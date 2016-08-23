@@ -1,0 +1,9 @@
+%html{'ng-app'=>'phonecatApp'}
+  %head
+    %script{:src => 'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'}
+    %script{src: 'assets/angular_structure/main.js'}
+  %body{ 'ng-controller' => 'PhoneListController'}
+    %ul
+      %li{"ng-repeat" => "phone in phones"}
+        %span {{phone.name}}
+        %p {{phone.snippet}}

@@ -1,0 +1,53 @@
+F, [2016-07-15T18:28:11.455154 #4880] FATAL -- : error adding listener addr=./tmp/sockets/unicorn.sock
+/home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/lib/unicorn/socket_helper.rb:167:in `bind_listen': Don't know how to bind: ./tmp/sockets/unicorn.sock (ArgumentError)
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:242:in `listen'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:813:in `block in bind_new_listeners!'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:813:in `each'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:813:in `bind_new_listeners!'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:138:in `start'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/bin/unicorn:23:in `load'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/bin/unicorn:23:in `<main>'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks21:15:in `eval'
+	from /home/colinmcrae/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks21:15:in `<main>'
+I, [2016-07-15T18:33:35.480758 #12198]  INFO -- : listening on addr=/home/colinmcrae/www/sinatra_app/tmp/sockets/unicorn.sock fd=10
+I, [2016-07-15T18:33:35.480930 #12198]  INFO -- : worker=0 spawning...
+I, [2016-07-15T18:33:35.481692 #12198]  INFO -- : worker=1 spawning...
+I, [2016-07-15T18:33:35.482059 #12201]  INFO -- : worker=0 spawned pid=12201
+I, [2016-07-15T18:33:35.482494 #12198]  INFO -- : master process ready
+I, [2016-07-15T18:33:35.482867 #12204]  INFO -- : worker=1 spawned pid=12204
+I, [2016-07-15T18:33:35.488609 #12201]  INFO -- : Refreshing Gem list
+I, [2016-07-15T18:33:35.493676 #12204]  INFO -- : Refreshing Gem list
+I, [2016-07-15T18:33:35.780786 #12201]  INFO -- : worker=0 ready
+I, [2016-07-15T18:33:35.786105 #12204]  INFO -- : worker=1 ready
+I, [2016-07-15T18:39:07.222530 #12198]  INFO -- : reaped #<Process::Status: pid 12201 exit 0> worker=0
+I, [2016-07-15T18:39:07.222625 #12198]  INFO -- : reaped #<Process::Status: pid 12204 exit 0> worker=1
+I, [2016-07-15T18:39:07.222687 #12198]  INFO -- : master complete
+I, [2016-07-16T18:38:19.332283 #14069]  INFO -- : unlinking existing socket=/home/colinmcrae/www/sinatra_app/tmp/sockets/unicorn.sock
+I, [2016-07-16T18:38:19.332680 #14069]  INFO -- : listening on addr=/home/colinmcrae/www/sinatra_app/tmp/sockets/unicorn.sock fd=9
+I, [2016-07-16T18:38:19.332726 #14069]  INFO -- : worker=0 spawning...
+I, [2016-07-16T18:38:19.333237 #14069]  INFO -- : worker=1 spawning...
+I, [2016-07-16T18:38:19.333539 #14091]  INFO -- : worker=0 spawned pid=14091
+I, [2016-07-16T18:38:19.338555 #14091]  INFO -- : Refreshing Gem list
+I, [2016-07-16T18:38:19.339814 #14069]  INFO -- : master process ready
+I, [2016-07-16T18:38:19.340130 #14094]  INFO -- : worker=1 spawned pid=14094
+I, [2016-07-16T18:38:19.345239 #14094]  INFO -- : Refreshing Gem list
+I, [2016-07-16T18:38:19.656459 #14091]  INFO -- : worker=0 ready
+I, [2016-07-16T18:38:19.656459 #14094]  INFO -- : worker=1 ready
+I, [2016-07-16T18:39:39.474640 #14069]  INFO -- : reaped #<Process::Status: pid 14091 exit 0> worker=0
+I, [2016-07-16T18:39:39.474784 #14069]  INFO -- : reaped #<Process::Status: pid 14094 exit 0> worker=1
+I, [2016-07-16T18:39:39.474881 #14069]  INFO -- : master complete
+I, [2016-07-16T18:41:20.712553 #18175]  INFO -- : unlinking existing socket=/home/colinmcrae/www/sinatra_app/tmp/sockets/unicorn.sock
+I, [2016-07-16T18:41:20.712696 #18175]  INFO -- : listening on addr=/home/colinmcrae/www/sinatra_app/tmp/sockets/unicorn.sock fd=10
+I, [2016-07-16T18:41:20.712770 #18175]  INFO -- : worker=0 spawning...
+I, [2016-07-16T18:41:20.713353 #18175]  INFO -- : worker=1 spawning...
+I, [2016-07-16T18:41:20.713691 #18178]  INFO -- : worker=0 spawned pid=18178
+I, [2016-07-16T18:41:20.713827 #18175]  INFO -- : master process ready
+I, [2016-07-16T18:41:20.714124 #18181]  INFO -- : worker=1 spawned pid=18181
+I, [2016-07-16T18:41:20.719942 #18178]  INFO -- : Refreshing Gem list
+I, [2016-07-16T18:41:20.720075 #18181]  INFO -- : Refreshing Gem list
+I, [2016-07-16T18:41:20.992993 #18178]  INFO -- : worker=0 ready
+I, [2016-07-16T18:41:20.993089 #18181]  INFO -- : worker=1 ready
+I, [2016-07-17T16:33:39.353839 #18175]  INFO -- : reaped #<Process::Status: pid 18178 exit 0> worker=0
+I, [2016-07-17T16:33:39.355336 #18175]  INFO -- : reaped #<Process::Status: pid 18181 exit 0> worker=1
+I, [2016-07-17T16:33:39.355459 #18175]  INFO -- : master complete

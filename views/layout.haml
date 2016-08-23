@@ -1,0 +1,8 @@
+%html
+  %head
+    %link{rel: 'stylesheet', href: '/stylesheets/style.css'}
+    %title
+      Some space
+    = haml :menu, layout: false
+  %body
+    .container= yield
