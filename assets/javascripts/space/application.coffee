@@ -1,11 +1,9 @@
-#= require lib/angular.min
+# require lib/angular.min
 #= require space/spaceModule
-#= require space/game
-'use strict'
+#= require space/world/world
 
 app = angular.module('App',['Space'])
 
-
-app.controller 'game', (init) ->
-  init()
+app.controller 'game', ($scope, world) ->
   console.log 'controller runs'
+  world.init()
