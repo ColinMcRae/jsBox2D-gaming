@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e95377a-a659-4900-99e7-05d4518d10ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/application.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/application.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" />
     </list>
     <ignored path="sinatra_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.coffee" pinned="false" current-in-tab="false">
+      <file leaf-file-name="env.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/env.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.16954474">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticker.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ticker.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3956044">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
@@ -191,8 +185,8 @@
         <option value="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/birds/game.js" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/application.coffee" />
-        <option value="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" />
       </list>
     </option>
   </component>
@@ -1115,16 +1109,16 @@
       <workItem from="1471879928665" duration="2144000" />
       <workItem from="1471947713272" duration="16578000" />
       <workItem from="1472069600036" duration="5145000" />
-      <workItem from="1472112625175" duration="10731000" />
+      <workItem from="1472112625175" duration="10934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142457000" />
+    <option name="totallyTimeSpent" value="142660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1133,7 +1127,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3165236" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3165236" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1511,10 +1505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee">
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1523,6 +1517,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1537,16 +1539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/env.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3956044">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.16954474">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
