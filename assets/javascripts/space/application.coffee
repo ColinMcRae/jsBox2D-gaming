@@ -17,6 +17,6 @@
 app = angular.module('App',['Space'])
 
 app.controller 'game', ($scope, env) ->
-  canvas = $('canvas #world')
+  canvas = $('canvas')
   env.init(canvas)
   return

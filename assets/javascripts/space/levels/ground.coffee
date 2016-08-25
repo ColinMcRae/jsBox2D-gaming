@@ -3,6 +3,7 @@ angular.module('Space')
 
     this.build = (canvas, world) ->
       console.log 'building wall'
+      console.log canvas.width()
       this.createWall world,
         { width: canvas.width(), height: 1 },
         { x: 0, y: canvas.height() }

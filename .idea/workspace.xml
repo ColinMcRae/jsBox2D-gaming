@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e95377a-a659-4900-99e7-05d4518d10ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/javascripts/space/levels/test_level.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/application.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/application.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/game.haml" afterPath="$PROJECT_DIR$/views/game.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" />
     </list>
     <ignored path="sinatra_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/application.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/birds/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.172414">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="5" selection-start-line="92" selection-start-column="3" selection-end-line="97" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/assets/javascripts/birds/objects.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,17 +74,17 @@
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ground.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ground.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45211932">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/env.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -104,17 +104,17 @@
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticker.coffee" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ticker.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.3956044">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -164,7 +164,6 @@
         <option value="$PROJECT_DIR$/assets/javascripts/birds/main.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/birds/entity.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/birds/game.coffee" />
-        <option value="$PROJECT_DIR$/assets/javascripts/birds/game.js" />
         <option value="$PROJECT_DIR$/views/menu.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/2.coffee" />
@@ -186,13 +185,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/game.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/world/world.coffee" />
-        <option value="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" />
         <option value="$PROJECT_DIR$/views/game.haml" />
-        <option value="$PROJECT_DIR$/assets/javascripts/space/application.coffee" />
-        <option value="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" />
-        <option value="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee" />
         <option value="$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/birds/game.js" />
+        <option value="$PROJECT_DIR$/assets/javascripts/space/application.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/space/world/env.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee" />
       </list>
     </option>
   </component>
@@ -1115,12 +1115,12 @@
       <workItem from="1471879928665" duration="2144000" />
       <workItem from="1471947713272" duration="16578000" />
       <workItem from="1472069600036" duration="5145000" />
-      <workItem from="1472112625175" duration="8390000" />
+      <workItem from="1472112625175" duration="10731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140116000" />
+    <option name="totallyTimeSpent" value="142457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1050" extended-state="6" />
@@ -1171,13 +1171,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unicorn.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1468,14 +1461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/lib/Box2D.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028257458">
@@ -1494,10 +1479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/birds/objects.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.33281004">
+          <caret line="1013" column="0" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1505,15 +1490,23 @@
     <entry file="file://$PROJECT_DIR$/assets/javascripts/space/application.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/birds/objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/birds/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.172414">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="5" selection-start-line="92" selection-start-column="3" selection-end-line="97" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1521,15 +1514,7 @@
     <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/b2world.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/env.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1537,15 +1522,31 @@
     <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/box2d_vars.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascripts/space/levels/ground.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45211932">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/env.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/space/world/ticker.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3956044">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
