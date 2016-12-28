@@ -1,8 +1,8 @@
 %p here is canvas
-%canvas{width: 1800, height: 600, id: :world, style: 'background-color:#aaa;'}
+-#%canvas#canvas{width: 900, height: 500, style: 'background-color:#aaa; display: "none";'}
+%canvas#arcade
+%canvas#debug
 -#%script{:src => 'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js'}
 
-%div{ 'ng-controller' => 'game'}
-
-%script{src: 'assets/space/application.js'}
-
+-#%script{src: 'assets/space/application.js'}
+%script{src: 'assets/space/game.js'}

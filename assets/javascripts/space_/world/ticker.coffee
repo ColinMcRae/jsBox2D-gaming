@@ -5,14 +5,14 @@ angular.module('Space')
 
     this.tick = (world) ->
       console.log 'tick'
-      world.Step(1/60, 10, 10)
+      world.Step 1 / 60, 10, 10
       world.DrawDebugData()
-      world.ClearForces()
+      world.ClearForces()      
 #        while(destroyedBodies.length > 0) {
 #          world.DestroyBody(destroyedBodies.shift())
 #        }
 
     this.startWorld = (world) ->
-      clearInterval w_loop
-      w_loop = setInterval(l.tick(world), 1000 / 60)
+#      clearInterval w_loop
+      window.setInterval l.tick(world), 1000 / 60
     return
